@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "164914440754",
+    "firebase_url": "https://logindemo-788fa.firebaseio.com",
+    "project_id": "logindemo-788fa",
+    "storage_bucket": "logindemo-788fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164914440754:android:f5deb9598209abbf",
+        "android_client_info": {
+          "package_name": "com.example.envy13.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164914440754-gc7utku62bmuu3d9gfmku2uf8tuddplf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.envy13.login",
+            "certificate_hash": "b3e38475b7f616e53c80de4af76187f79457817a"
+          }
+        },
+        {
+          "client_id": "164914440754-pubj7filbbtbmaojei7cfupjj0inivhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk2CSxZPxBEUO8AU7kJUSjGsbMZuo2irs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164914440754-pubj7filbbtbmaojei7cfupjj0inivhi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

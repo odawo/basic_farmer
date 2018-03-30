@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:layout_margin="20dp"
+    android:background="#323232"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:elevation="5dp"
+        android:layout_margin="3dp"
+        card_view:cardCornerRadius="@dimen/cardview_compat_inset_shadow"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:focusable="true"/>
+
+        <TextView
+            android:id="@+id/cvemail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/thumbnail"/>
+
+        <TextView
+            android:id="@+id/cvcontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cvemail"
+            android:text="contact"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/cvproductname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cvcontact"
+            android:text="product name"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/cvproductamount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cvproductname"
+            android:text="product amount"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/cvproductdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cvproductamount"
+            android:text="product description"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/cvproductlocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cvproductdescription"
+            android:text="product location"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:id="@+id/callfarmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cvproductlocation"
+            android:text="contact farmer"
+            android:background="#00a2ad"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

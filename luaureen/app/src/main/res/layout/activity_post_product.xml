@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.envy13.login.PostProduct">
+
+    <TextView
+        android:id="@+id/emailtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contact"
+        android:padding="10dp"
+        android:layout_below="@id/emailtv"
+        android:inputType="phone"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/productbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact"
+        android:text="take product image"
+        android:padding="10dp"
+        android:layout_marginTop="55dp"
+        android:background="#00a2ad"/>
+
+    <ImageView
+        android:id="@+id/productimage"
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/contact"
+        android:layout_toRightOf="@+id/productbtn"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/ic_photo_camera_black_24dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/mylocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productimage"
+        android:padding="10dp"
+        android:hint="Your Location/Addresss"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/linearlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/mylocation">
+
+        <EditText
+            android:id="@+id/productname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:padding="10dp"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/productAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:hint="Amount in KGs"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearlay"
+        android:hint="Product Description"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:text="submit"
+        android:background="#00a2ad" />
+
+</RelativeLayout>

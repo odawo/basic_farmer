@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.envy13.login.SecondActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/welcome_to_mahitaji_mobile_application"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/userName"-->
+        <!--android:layout_below="@id/textView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textColor="@android:color/black"/>-->
+
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/textView"/>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/userEmail"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/ic_question_answer_black_24dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btnJuasoko"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:background="#00a2ad"
+            android:text="Juasoko" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/layout1"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_message_black_24dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btnJielimishe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Jielimishe "
+            android:background="#00a2ad" />
+
+    </LinearLayout>
+
+    <!--<Button-->
+        <!--android:id="@+id/btnLogout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:padding="20dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:text="@string/logout"-->
+        <!--android:background="#00a2ad" -->
+        <!--android:layout_below="@+id/layout2"/>-->
+
+</RelativeLayout>

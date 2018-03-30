@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">mahitaji</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_account">new ACCOUNT</string>
+    <string name="name">Name</string>
+    <string name="logout">LOGOUT</string>
+    <string name="welcome_to_mahitaji_mobile_application">Welcome to Mahitaji Mobile Application</string>
+    <string name="tomato">Its the warm season. Farmers are happy that their tomatoes are finally going to
+        receive the much sunlight needed for the fruit to grow bigger, juicier and firmer. What most probably
+        dont know is that with the warm weather sets in the most dreaded disease. The monster that can wipe a
+        farmers field clean : Bacteria Wilt.Bacteria Wilt is caused by the pathogen bacterium Ralstonia Solanacearum
+        and is quite common in the moist and humid sandy soils. This bacterium lives in the soil and will work its way
+        quickly through the roots and up the stem of the plants. Its spread by</string>
+    <string name="potato">Its the warm season. Farmers are happy that their tomatoes are finally going to
+        receive the much sunlight needed for the fruit to grow bigger, juicier and firmer. What most probably
+        dont know is that with the warm weather sets in the most dreaded disease. The monster that can wipe a
+        farmers field clean : Bacteria Wilt.Bacteria Wilt is caused by the pathogen bacterium Ralstonia Solanacearum
+        and is quite common in the moist and humid sandy soils. This bacterium lives in the soil and will work its way
+        quickly through the roots and up the stem of the plants. Its spread by</string>
+    <string name="onion">Its the warm season. Farmers are happy that their tomatoes are finally going to
+        receive the much sunlight needed for the fruit to grow bigger, juicier and firmer. What most probably
+        dont know is that with the warm weather sets in the most dreaded disease. The monster that can wipe a
+        farmers field clean : Bacteria Wilt.Bacteria Wilt is caused by the pathogen bacterium Ralstonia Solanacearum
+        and is quite common in the moist and humid sandy soils. This bacterium lives in the soil and will work its way
+        quickly through the roots and up the stem of the plants. Its spread by</string>
+    <string name="carrot">Its the warm season. Farmers are happy that their tomatoes are finally going to
+        receive the much sunlight needed for the fruit to grow bigger, juicier and firmer. What most probably
+        dont know is that with the warm weather sets in the most dreaded disease. The monster that can wipe a
+        farmers field clean : Bacteria Wilt.Bacteria Wilt is caused by the pathogen bacterium Ralstonia Solanacearum
+        and is quite common in the moist and humid sandy soils. This bacterium lives in the soil and will work its way
+        quickly through the roots and up the stem of the plants. Its spread by</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

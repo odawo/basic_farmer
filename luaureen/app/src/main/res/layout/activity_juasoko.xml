@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.envy13.login.JielimisheActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose an option below."
+        android:gravity="center_horizontal"
+        android:padding="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/layouta"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv">
+
+        <ImageView
+            android:id="@+id/posttv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ic_add_box_black_24dp"/>
+
+        <Button
+            android:id="@+id/postproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="add farm produce"
+            android:background="#00a2ad"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutb"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layouta"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/viewtv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ic_pageview_black_24dp"/>
+
+        <Button
+            android:id="@+id/viewProducts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="view farm produce"
+            android:background="#00a2ad"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
